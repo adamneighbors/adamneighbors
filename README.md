@@ -33,6 +33,7 @@ Dedicated and results-driven Software Engineer with a solid foundation in Python
 ## Tools
 <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"></a>
 <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://obsidian.md/" target="_blank"><img src="https://img.shields.io/badge/obsidian-%237C3AED?style=for-the-badge&logo=obsidian&logoColor=white"></a>
 <a href="https://www.gimp.org/" target="_blank"><img src="https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF"></a>
 <a href="https://penpot.app/" target="_blank"><img src="https://img.shields.io/badge/penpot-%23000000?style=for-the-badge&logo=penpot&logoColor=white"></a>
 <a href="https://godotengine.org/" target="_blank"><img src="https://img.shields.io/badge/godotengine-%23478CBF.svg?style=for-the-badge&logo=godotengine&logoColor=white"></a>
