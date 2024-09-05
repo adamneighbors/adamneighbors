@@ -1,7 +1,7 @@
 # Adam Neighbors - 🤵Husband, 🧑‍💻Developer, 🏕️Camper, and 🍖Barbecuer
 <a href="https://linkedin.com/in/adamneighbors" target="_blank"><img src="https://img.shields.io/badge/-%230077B5.svg?style=social&logo=linkedin"></a>
 <a href="https://instagram.com/adamneighbors" target="_blank"><img src="https://img.shields.io/badge/-%23E4405F.svg?style=social&logo=Instagram"></a>
-<a href="https://x.com/onelegchair)" target="_blank"><img src="https://img.shields.io/badge/-black.svg?style=social&logo=X"></a>
+<a href="https://x.com/onelegchair" target="_blank"><img src="https://img.shields.io/badge/-black.svg?style=social&logo=X"></a>
 
 # Linux | Python | SQL | Automation | Self Hosted | Odoo
 Dedicated and results-driven Software Engineer with a solid foundation in Python, SQL, and automation. Over a decade of experience in delivering innovative solutions and driving operational excellence across diverse industries. Proven expertise in software development, data management, and automation, with a strong passion for Python development.
