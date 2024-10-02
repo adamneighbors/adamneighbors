@@ -1,3 +1,275 @@
-body{
+:root{
+    --primary-blue: #2e3440;
+    --secondary-blue: #667E98;
+    --dark-blue: #5A6F87;
+    
+    --primary-grey: #595F6A;
+
+    --primary-white: #e5e9f0;
+    --secondary-white: #CBD3E1;
+
+    --primary-red: #BF616A;
+    --secondary-red: #AE4751;
+    --dark-red: #742F36;
+    
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-white);
+}
+
+header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: col;
+    padding: 0 1rem;
+}
+
+header i {
+    font-size: 2.5rem;
+}
+
+nav{
+    background: var(--primary-grey);
+    overflow: hidden;
+    padding: 1.5rem;
+    margin: 1rem;
+    margin-top: 0;
+    border-radius: 5px;
     text-align: center;
+}
+
+nav a {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: large;
+    color: var(--primary-white);
+}
+
+nav a:hover {
+    background: var(--primary-white);
+    color: black;
+    border-radius: 5px;
+}
+
+body{
+    background: var(--primary-blue);
+    z-index: -1;
+    overflow-x: hidden;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem 6rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+}
+
+.hero-container .photo-container {
+    display: flex;
+    flex: 0 0 15%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container .photo-container img {
+    max-width: 20rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    display: block;
+    box-shadow: 5px 5px 3px black;
+}
+
+.hero-container .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container .contact-container {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+.hero-container .contact-container .contact-btn {
+    border-radius: 8px;
+    border: none;
+    padding: 0.75rem 0.5rem;
+    background: var(--primary-red);
+    color: var(--primary-white);
+    font-weight:700;
+}
+
+.hero-container .contact-container .contact-btn:hover {
+    background: var(--secondary-red);
+}
+
+.hero-container .contact-container .contact-btn:active {
+    background: var(--dark-red);
+}
+
+.hero-container .socials-container {
+    display: flex;
+    flex-direction: colu;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.hero-container .socials-container i {
+    font-size: 2.5rem;
+    color: var(--primary-white);
+}
+
+.hero-container .socials-container i:hover {
+    color: var(--secondary-blue);
+}
+
+.hero-container .socials-container i:active {
+    color: var(--dark-blue);
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    gap: 2rem;
+    background: var(--secondary-blue);
+    z-index: 0;
+    padding-inline: 2rem;
+    margin-inline: -1%;
+}
+
+.skills-container .skill-card {
+    min-width: 20rem;
+    min-height: 10rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: var(--primary-white);
+    z-index: 1;
+    border-radius: 5px;
+    color: var(--primary-blue);
+    word-wrap: break-word;
+    box-shadow: 3px 1px 1px var(--primary-blue);
+}
+
+.skills-container .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 3px var(--primary-blue);
+    transition: box-shadow 0.25s ease-in, transform 0.25s ease-in;
+}
+
+.skill-name {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    color: var(--primary-red);
+    margin-bottom: 5px;
+}
+
+.skill-name .skill-icon {
+    font-size: x-large;
+    min-height: 20px;
+    color: var(--primary-blue);
+}
+
+.skill-name svg {
+    min-height: 20px;
+    max-height: 70px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    align-items: center;
+    font-size: large;
+}
+
+.sub-label {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sub-container a {
+    color: var(--primary-blue);
+}
+
+.sub-container a:hover {
+    color: var(--dark-red);
+}
+
+.job-history-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: darkgoldenrod;
+    padding: 2rem;
+}
+
+.job-history-container .history-point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.job-history-container .history-point .years::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: var(--primary-white);
+    z-index: 0;
+    left: 0;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+    padding-inline: 15%;
+}
+
+.projects-container .project-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    background: var(--secondary-blue);
+    z-index: 1;
+    border-radius: 30px;
+    word-wrap: break-word;
+    box-shadow: 3px 1px 1px black;
+}
+
+.project-card .photo-container img {
+    max-width: 30rem;
+    border-radius: 30px;
+    flex: 0 0 30%;
+}
+
+.projects-container .project-card .content-container {
+    word-wrap: break-word;
+    max-width: 35rem;
+    flex: 0 0 70%;
+}
+
+.project-card .content-container h2 {
+    color: var(--secondary-white)
 }
