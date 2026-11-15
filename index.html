@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=IBM+Plex+Sans:wght@500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECdZFzdEWyL6s81nmsumwXZ2XN5iXNL4nVb1tqa8H5z/swB5S1eq5tqCvIjAe933+06pjQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -56,45 +56,47 @@
         </section>
 
         <section id="about" class="section" aria-labelledby="about-title">
-            <h2 id="about-title" class="section__title">About</h2>
-            <p class="section__lead">
-                I help teams ship dependable software around ERP and operations—custom Odoo work, Python services,
-                SQL-heavy data flows, and automation that stays observable in production. After more than a decade
-                building and maintaining systems across manufacturing, utilities, and home services, I care most about
-                clarity: code people can own, integrations that fail loudly, and delivery that matches how work actually runs.
-            </p>
-            <p class="section__lead section__lead--spaced">
-                I work day to day on <strong>Linux</strong>—desktop, servers, and containers—and I’m most productive in the
-                shell and the usual ops toolchain. It’s my preferred environment for development and for running the systems
-                I build; I still touch Windows when a stack or team requires it.
-            </p>
+            <div class="about-panel">
+                <h2 id="about-title" class="section__title">About</h2>
+                <p class="section__lead">
+                    I help teams ship dependable software around ERP and operations—custom Odoo work, Python services,
+                    SQL-heavy data flows, and automation that stays observable in production. After more than a decade
+                    building and maintaining systems across manufacturing, utilities, and home services, I care most about
+                    clarity: code people can own, integrations that fail loudly, and delivery that matches how work actually runs.
+                </p>
+                <p class="section__lead section__lead--spaced">
+                    I work day to day on <strong>Linux</strong>—desktop, servers, and containers—and I’m most productive in the
+                    shell and the usual ops toolchain. It’s my preferred environment for development and for running the systems
+                    I build; I still touch Windows when a stack or team requires it.
+                </p>
+            </div>
         </section>
 
         <section id="expertise" class="section" aria-labelledby="expertise-title">
             <h2 id="expertise-title" class="section__title">Expertise</h2>
             <div class="expertise-grid">
                 <article class="expertise-card">
-                    <h3>Odoo &amp; ERP</h3>
+                    <h3><i class="fa-solid fa-sitemap" aria-hidden="true"></i> Odoo &amp; ERP</h3>
                     <p>Custom modules, XML-RPC integrations, upgrades, and workflows aligned with business processes.</p>
                 </article>
                 <article class="expertise-card">
-                    <h3>Python &amp; automation</h3>
+                    <h3><i class="fa-brands fa-python" aria-hidden="true"></i> Python &amp; automation</h3>
                     <p>Back-end logic, bots, APIs, and scripting—often paired with Selenium, SQLAlchemy, and Twilio.</p>
                 </article>
                 <article class="expertise-card">
-                    <h3>Data &amp; SQL</h3>
+                    <h3><i class="fa-solid fa-database" aria-hidden="true"></i> Data &amp; SQL</h3>
                     <p>PostgreSQL and Microsoft SQL Server, reporting, ETL-style jobs, and analytics-friendly schemas.</p>
                 </article>
                 <article class="expertise-card">
-                    <h3>CI/CD &amp; observability</h3>
+                    <h3><i class="fa-solid fa-arrows-spin" aria-hidden="true"></i> CI/CD &amp; observability</h3>
                     <p>Docker, Jenkins, Grafana, and practices that keep releases repeatable and incidents visible.</p>
                 </article>
                 <article class="expertise-card">
-                    <h3>Cloud</h3>
+                    <h3><i class="fa-solid fa-cloud" aria-hidden="true"></i> Cloud</h3>
                     <p>Google Cloud Platform workloads, containerized services, and migrations off brittle local automation.</p>
                 </article>
                 <article class="expertise-card">
-                    <h3>Web stacks</h3>
+                    <h3><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Web stacks</h3>
                     <p>Django, Bootstrap, and pragmatic HTML/CSS/JS when a dashboard or internal tool is the right fit.</p>
                 </article>
             </div>
@@ -105,19 +107,22 @@
             <h2 id="work-title" class="section__title">Selected work</h2>
             <div class="project-grid">
                 <article class="project-card">
-                    <h3><a href="https://github.com/adamneighbors/dish-genie" target="_blank" rel="noopener noreferrer">Dish Genie</a></h3>
+                    <a class="project-card__stretched-link" href="https://github.com/adamneighbors/dish-genie" target="_blank" rel="noopener noreferrer">
+                        <span class="sr-only">Dish Genie — view repository</span>
+                    </a>
+                    <h3>Dish Genie</h3>
                     <p>A CircuitPython timer for the Adafruit MagTag—e-ink UI, NeoPixel feedback, and deep sleep so a dishwasher cycle is obvious when it finishes.</p>
                     <div class="project-card__tags">
                         <span class="tag">CircuitPython</span>
                         <span class="tag">MagTag</span>
                         <span class="tag">Hardware</span>
                     </div>
-                    <div class="project-card__links">
-                        <a href="https://github.com/adamneighbors/dish-genie" target="_blank" rel="noopener noreferrer">Repository</a>
-                    </div>
                 </article>
                 <article class="project-card">
-                    <h3><a href="https://github.com/adamneighbors/baseball-stats-dashboard" target="_blank" rel="noopener noreferrer">Baseball Stats Dashboard</a></h3>
+                    <a class="project-card__stretched-link" href="https://github.com/adamneighbors/baseball-stats-dashboard" target="_blank" rel="noopener noreferrer">
+                        <span class="sr-only">Baseball Stats Dashboard — view repository</span>
+                    </a>
+                    <h3>Baseball Stats Dashboard</h3>
                     <p>A Django dashboard for MLB player stats—Plotly charts, PostgreSQL, and management commands to load season data.</p>
                     <div class="project-card__tags">
                         <span class="tag">Django</span>
@@ -125,8 +130,7 @@
                         <span class="tag">Plotly</span>
                     </div>
                     <div class="project-card__links">
-                        <a href="https://github.com/adamneighbors/baseball-stats-dashboard" target="_blank" rel="noopener noreferrer">Repository</a>
-                        <a href="https://baseball.adamneighbors.com" target="_blank" rel="noopener noreferrer">Live demo</a>
+                        <a class="project-card__secondary-link" href="https://baseball.adamneighbors.com" target="_blank" rel="noopener noreferrer">Live demo</a>
                     </div>
                 </article>
             </div>
